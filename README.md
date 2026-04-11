@@ -61,3 +61,15 @@ https://dev.pointsvault.app/?code=...
 ---
 
 _Last updated: April 2026_
+
+## ✅ Dev Auth & Web Status (April 2026)
+
+- Dev web app live at https://dev.pointsvault.app
+- Cognito Hosted UI (custom domain) working
+- OAuth 2.0 Authorization Code + PKCE flow verified
+- Successful end-to-end login redirects with token exchange
+- Frontend currently decodes ID token claims (dev-only)
+
+Next:
+- Persist session across refresh
+- Add backend API protected by Cognito JWTs
